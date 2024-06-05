@@ -1,0 +1,12 @@
+﻿<Window x:Class="EnglishTrainer.TrainingForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Training" Height="350" Width="525">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <Button Name="btnWriteAnswer" Content="Write Answer" Width="200" Height="50" Click="btnWriteAnswer_Click"/>
+            <Button Name="btnMultipleChoice" Content="Multiple Choice" Width="200" Height="50" Click="btnMultipleChoice_Click"/>
+            <Button Name="btnCorrectMistake" Content="Correct Mistake" Width="200" Height="50" Click="btnCorrectMistake_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
